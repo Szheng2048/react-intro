@@ -12,8 +12,8 @@ export class Sidebar extends Component {
       <div className='sidebar' style = {{backgroundColor:this.state.color}}>
         <ul className='seperators'>
           <li onClick={()=>{this.setState({color: "red"})}}>Red</li>
-          <li onClick={()=>{this.setState({color: "yellow"})}}>Yellow</li>
-          <li onClick={()=>{this.setState({color: "orange"})}}>Orange</li>
+          <li onClick={()=>{this.setState({color: "green"})}}>Green</li>
+          <li onClick={()=>{this.setState({color: "blue"})}}>Blue</li>
         </ul>
       </div>
     )
